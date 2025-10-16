@@ -1,0 +1,12 @@
+input[type=number] {
+    width: 30px;
+}
+
+.btn.active{
+    color:red;
+    background-color: blue;
+}
+.btn{
+    color:black;
+    background-color: transparent;
+}

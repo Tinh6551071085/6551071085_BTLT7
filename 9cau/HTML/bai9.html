@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <title>Information</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+    <link rel="stylesheet" href="../Styles/bai9.css">
+</head>
+
+<body>
+    <form>
+        <h3>Personal Information</h3>
+        <label>Enter name*: <input type="text" name="name" required></label>
+        <label>Sex*:
+            <input type="radio" name="sex" value="male" required> Male
+            <input type="radio" name="sex" value="female"> Female
+        </label>
+
+        <label>Enter email address*:
+            <input type="email" name="email" required>
+        </label>
+
+        <label>Enter birthday (MM/DD/YYYY)*: <input type="text" name="birthday" placeholder="MM/DD/YYYY"
+                required></label>
+        <label>Enter street address (line 1)*:
+            <input type="text" name="address1" required>
+        </label>
+        <label>Enter city*:
+            <input type="text" name="city" required>
+        </label>
+        <label>Select a region*:
+            <select name="region" required>
+                <option value="">--Select--</option>
+                <option>North</option>
+                <option>South</option>
+                <option>East</option>
+                <option>West</option>
+            </select>
+        </label>
+        <label>Enter 5-digit ZIP code*:
+            <input type="text" name="zip" maxlength="5" required>
+        </label>
+        <p></p>
+        <div class="buttons">
+            <input type="button" value="Finished">
+            <input type="reset" value="Clear">
+
+        </div>
+    </form>
+    <script src="../Scripts/bai9.js"></script>
+</body>
+
+</html>
